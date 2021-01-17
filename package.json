@@ -11,5 +11,12 @@
     "local": "yarn global add file:$PWD"
   },
   "author": "Will Koury",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "next",
+    "js",
+    "rails",
+    "CLI",
+    "boilerplate"
+  ]
 }
