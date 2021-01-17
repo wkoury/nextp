@@ -1,5 +1,5 @@
 # About
-Inspired by the `rails` CLI, nextp is a way to quickly generate boilerplate for Next.js projects. There are 2 ways to install it:
+Inspired by the `rails` CLI, `nextp` is a way to quickly generate boilerplate for Next.js projects. There are 2 ways to install it:
 ```
 yarn global add nextp
 npm i -g nextp
