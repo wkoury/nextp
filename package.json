@@ -1,0 +1,11 @@
+{
+  "name": "nextp",
+  "version": "1.0.0",
+  "description": "Quickly generate boilerplate code for Next.js projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Will Koury",
+  "license": "MIT"
+}
