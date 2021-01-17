@@ -2,9 +2,13 @@
   "name": "nextp",
   "version": "1.0.0",
   "description": "Quickly generate boilerplate code for Next.js projects.",
-  "main": "index.js",
+  "main": "./lib/nextp.js",
+  "bin": {
+    "nextp": "./bin/index.js"
+  },
   "scripts": {
-    "start": "node index.js"
+    "test": "yarn run local ; yarn create next-app test ; cd test ; nextp NewPage ; yarn build ; cd .. ; rm -rf test",
+    "local": "yarn global add file:$PWD"
   },
   "author": "Will Koury",
   "license": "MIT"
