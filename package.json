@@ -8,7 +8,7 @@
     "nextp": "./bin/index.js"
   },
   "scripts": {
-    "test": "yarn run local ; yarn create next-app test ; cd test ; nextp NewPage ; yarn build ; cd .. ; rm -rf test",
+    "test": "yarn run local ; mkdir pages ; nextp Home ; cat pages/Home.js ; rm -rf pages",
     "local": "yarn global add file:$PWD"
   },
   "author": "Will Koury",
