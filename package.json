@@ -1,6 +1,6 @@
 {
   "name": "nextp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quickly generate boilerplate code for Next.js projects.",
   "preferGlobal": true,
   "main": "./lib/nextp.js",
